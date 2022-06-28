@@ -17,7 +17,8 @@ module.exports = {
     },
 
     screens: {
-      '2xl': '1320px',
+      desktop: '1288px',
+      tablet: '820px',
     },
   },
   plugins: [],
