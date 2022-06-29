@@ -5,3 +5,15 @@
 .shape-element {
   @apply tablet:rounded-bl-[90px] tablet:rounded-tr-[90px];
 }
+
+.res-container {
+  @apply max-w-[980px] mx-auto;
+}
+
+.tablet-breakpoint {
+  @apply tablet:max-w-[900px] mx-auto;
+}
+
+.icon-hover {
+  @apply hover:rotate-6 hover:scale-110 duration-300;
+}
